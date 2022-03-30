@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginPageComponent } from './admin/login-page/login-page.component';
 import { DashboardPageComponent } from './admin/dashboard-page/dashboard-page.component';
 import { MainPageComponent } from './homepage/main-page/main-page.component';
-import { HeaderComponent } from './homepage/shared/header/header.component';
+import { HeaderComponent } from './homepage/shared/components/header/header.component';
 import { HeroComponent } from './homepage/shared/components/hero/hero.component';
 
 @NgModule({
