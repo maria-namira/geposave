@@ -8,6 +8,13 @@ import { DashboardPageComponent } from './admin/dashboard-page/dashboard-page.co
 import { MainPageComponent } from './homepage/main-page/main-page.component';
 import { HeaderComponent } from './homepage/shared/components/header/header.component';
 import { HeroComponent } from './homepage/shared/components/hero/hero.component';
+import { SymptomesComponent } from './homepage/shared/components/symptomes/symptomes.component';
+import { IngridientsComponent } from './homepage/shared/components/ingridients/ingridients.component';
+import { PrescriptionComponent } from './homepage/shared/components/prescription/prescription.component';
+import { HowitworksComponent } from './homepage/shared/components/howitworks/howitworks.component';
+import { LocationsComponent } from './homepage/shared/components/locations/locations.component';
+import { BlogComponent } from './homepage/shared/components/blog/blog.component';
+import { FooterComponent } from './homepage/shared/components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +23,14 @@ import { HeroComponent } from './homepage/shared/components/hero/hero.component'
     DashboardPageComponent,
     MainPageComponent,
     HeaderComponent,
-    HeroComponent
+    HeroComponent,
+    SymptomesComponent,
+    IngridientsComponent,
+    PrescriptionComponent,
+    HowitworksComponent,
+    LocationsComponent,
+    BlogComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
