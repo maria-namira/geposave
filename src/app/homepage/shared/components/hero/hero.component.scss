@@ -15,6 +15,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    position: relative;
     & .hero__title-block {
         margin: 0 auto;
         margin-top: 35px;
@@ -66,6 +67,7 @@
     }
     & .hero__image {
         position: relative;
+        margin: 0 auto;
         margin-top: 170px;
         max-height: 600px;
         & .hero__image-item-1 {
@@ -85,5 +87,24 @@
             left: 150px;
             z-index: 8;
         }
+    }
+}
+
+.hero__icons-wrapper {
+    width: 100%;
+    max-width: 314px;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background: #FFFFFF;
+    border-radius: 20px;
+    position: relative;
+    right: -50%;
+    top: -160px;
+    & .hero__icons-item {
+        box-sizing: border-box;
+        margin: 15px;
     }
 }
