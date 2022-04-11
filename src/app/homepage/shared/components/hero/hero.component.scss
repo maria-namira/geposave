@@ -1,0 +1,27 @@
+.hero-wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hero {
+    width: 100%;
+    max-width: 1420px;
+    margin: 0 auto;
+    background: #EDFFFD;
+    border-radius: 30px;
+    box-sizing: border-box;
+    padding: 50px;
+    & .hero__title-block {
+        margin-top: 35px;
+        & .block__title {
+            color: #ff6107;
+            box-sizing: border-box;
+            padding: 5px 12px;
+            background: #fff;
+            width: fit-content;
+            border-radius: 4px;
+            font-size: 24px;
+            font-weight: 900;
+        }
+    }
+}
